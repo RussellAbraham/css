@@ -1,0 +1,13 @@
+
+.phase:before, .phase:after { 
+    animation : phase 2s infinite ease-in-out; 
+} 
+
+.phase:after { 
+    animation-delay: -1s; animation-duration: 1s; 
+}  
+
+@keyframes phase { 
+    0%, 100% { transform:scale(0); } 
+    50% { transform:scale(1); } 
+}
