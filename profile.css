@@ -1,0 +1,191 @@
+   .spinner {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: 100px auto
+    }
+
+    .spinner:before,
+    .spinner:after {
+        background-color: #c00;
+        border-radius: 50%;
+        opacity: .6;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        animation: bounce 2s infinite ease-in-out
+    }
+
+    .spinner:after {
+        animation-delay: -1s;
+        animation-duration: 1s
+    }
+
+    @keyframes bounce {
+
+        0%,
+        100% {
+            transform: scale(0)
+        }
+
+        50% {
+            transform: scale(1)
+        }
+    }
+
+    body {
+        width: 800px;
+        height: 300px;
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -400px;
+        top: 50%;
+        margin-top: -150px;
+        cursor: default;
+        font-family: Tahoma, sans-serif;
+        text-align: center
+    }
+
+    @media all and (max-width:800px) {
+        body {
+            margin-left: 0;
+            left: 0;
+            font-size: 10px
+        }
+    }
+
+    @media all and (max-width:450px) {
+        body {
+            font-size: 7px
+        }
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: .2em 0;
+        white-space: nowrap
+    }
+
+    h2 {
+        font-weight: normal
+    }
+
+    body.done h2#start-shortly,
+    body.fatal h2 {
+        opacity: 0;
+        margin-top: -1em
+    }
+
+    h2#redirection-wait {
+        opacity: 0;
+        margin-top: -1em
+    }
+
+    body.done h2#redirection-wait {
+        opacity: 1;
+        margin-top: -.2em
+    }
+
+    .logo {
+        width: 30%;
+        float: left;
+        display: none
+    }
+
+    #logo-app {
+        display: block
+    }
+
+    #loading {
+        width: 60%;
+        float: left;
+        padding: 5% 5%
+    }
+
+    #loading .spinner {
+        margin: 30px auto
+    }
+
+    h2,
+    #listening,
+    #loading .spinner,
+    #loading .ready,
+    .alert {
+        transition: all .3s ease-in
+    }
+
+    body.fatal #loading .spinner {
+        opacity: 0;
+        margin-bottom: -2em
+    }
+
+    body.fatal #loading #fatal {
+        opacity: 1;
+        line-height: 1.5em
+    }
+
+    body #loading #fatal {
+        line-height: 0
+    }
+
+    #listening {
+        opacity: 0;
+        font-weight: normal
+    }
+
+    body.done #listening {
+        opacity: 1
+    }
+
+    #loading .ready {
+        opacity: .2;
+        color: #c00;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 2em;
+        font-family: Verdana, sans-serif;
+        text-decoration: none;
+        position: relative;
+        margin: 0;
+        line-height: 0;
+        overflow: hidden;
+        display: block
+    }
+
+    .alert {
+        background: #fff;
+        border: solid 1px #f0f0f0;
+        border-left-width: .5em;
+        box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, .1);
+        padding: 1em 2em;
+        font-size: .8em;
+        border-radius: .3em;
+        position: fixed;
+        top: 3em;
+        left: 50%;
+        width: 500px;
+        margin-left: -250px
+    }
+
+    .alert.hidden {
+        padding-top: 0;
+        padding-bottom: 0;
+        overflow: hidden;
+        box-shadow: none;
+        opacity: 0;
+        margin-top: -1em
+    }
+
+    .alert.warning {
+        border-color: #f39c12
+    }
+
+    .alert.error {
+        border-color: #c00
+    }
