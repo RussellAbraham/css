@@ -1,0 +1,148 @@
+@-webkit-keyframes toggleEnvironmentNotice {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  1.5%,
+	25%,
+	75% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  76.5%,
+	98.5%,
+	100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+@keyframes toggleEnvironmentNotice {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  1.5%,
+	25%,
+	75% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  76.5%,
+	98.5%,
+	100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+[data-environment]:before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+  display: block;
+  text-align: center;
+  background: red;
+  padding: 0.5em 3.333em 0.667em;
+  line-height: 1;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.833em;
+  font-size: 6px;
+  box-shadow: 0 0.167em 0.333em rgba(0, 0, 0, 0.1), 0 0.833em 1.667em rgba(0, 0, 0, 0.12), 0 -0.167em 0.167em rgba(255, 255, 255, 0.5) inset;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(21%, var(--background)), color-stop(79%, var(--background)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, var(--background) 21%, var(--background) 79%, rgba(255, 255, 255, 0) 100%);
+  -webkit-filter: opacity(90%);
+          filter: opacity(90%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  will-change: filter transform;
+  -webkit-animation-name: toggleEnvironmentNotice;
+          animation-name: toggleEnvironmentNotice;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+[data-environment*="stag"]:before {
+  --background: #f83030;
+  content: "Staging Environment";
+  color: #fff;
+}
+
+[data-environment*="dev"]:before {
+  --background: #00aeff;
+  content: "Development Environment";
+}
+
+[data-environment="qa"]:before {
+  --background: #00cd7d;
+  content: "QA Environment";
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 840px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 839px) {
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+code,
+pre {
+  background-color: rgba(30, 30, 30, 0.8);
+  color: #8addff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+code {
+  padding: 1px 2px 3px;
+  margin: 2px 2px;
+}
+
+pre {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+p + p,
+ul + p {
+  padding-top: 2em;
+}
+
+li + li {
+  margin-top: 1em;
+}
