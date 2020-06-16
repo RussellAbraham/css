@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	overflow: hidden;
+}
+
+
 
 .phase {
 	width: 256px;
@@ -29,16 +41,17 @@
 
 @keyframes shift {
 
-	0%, 100% {
+	0%,
+	100% {
 		transform: scale(0);
-		box-shadow: 
-			0 0 20px #fff, 
-			-20px 0 80px #f0f, 
+		box-shadow:
+			0 0 20px #fff,
+			-20px 0 80px #f0f,
 			20px 0 80px #0ff,
-			inset 0 0 50px #fff, 
-			inset 50px 0 80px #f0f, 
+			inset 0 0 50px #fff,
+			inset 50px 0 80px #f0f,
 			inset -50px 0 80px #0ff,
-			inset 50px 0 300px #f0f, 
+			inset 50px 0 300px #f0f,
 			inset -50px 0 300px #0ff;
 		background-color: RGBA(100, 0, 0, 0.5);
 	}
@@ -46,14 +59,14 @@
 	50% {
 		transform: scale(1);
 		background-color: RGBA(0, 0, 33, 0.5);
-		box-shadow: 
-			0 0 20px #fff, 
-			20px 0 80px #f0f, 
+		box-shadow:
+			0 0 20px #fff,
+			20px 0 80px #f0f,
 			-20px 0 80px #0ff,
-			inset 0 0 50px #fff, 
-			inset -50px 0 80px #f0f, 
+			inset 0 0 50px #fff,
+			inset -50px 0 80px #f0f,
 			inset 50px 0 80px #0ff,
-			inset -50px 0 300px #f0f, 
+			inset -50px 0 300px #f0f,
 			inset 50px 0 300px #0ff;
 	}
 
