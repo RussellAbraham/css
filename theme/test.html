@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+table,tr,td {
+	box-sizing:border-box;
+}
+table, tr {
+	width:100%;
+}
+
+html,body,table {
+	margin:0;
+	padding:0;
+	border:none;
+	background-color:white;
+	color:black;
+	height: 100%;
+}
+tr {
+	height: 33%;
+}
+
+td {
+	border: 1px solid currentcolor;
+	padding:0;
+	width:33%;
+	height: 33%;
+}
+
+#output {
+	font-family: monospace;
+	font-size: 9px;
+	
+}
+
+script {
+	font-family: monospace;
+	font-size: 2.0px;
+	border-radius: 3px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+</style>
+</head>
+<body translate="no">
+<table>
+<tr>
+<td>
+<script id="js" style="display:block;" spellcheck="false" contenteditable>
+	
+var ele;
+	
+const selector = document.querySelector.bind(document);
+
+function pageLog(node, text){ 
+  var fragment = document.createDocumentFragment();
+  fragment.appendChild(document.createTextNode(text)); 
+  fragment.appendChild(document.createElement('br')); 
+  selector(node).appendChild(fragment);
+}
+	
+</script>
+</td>
+<td>
+<output id="output"></output>
+</td>
+<td>
+<div id="success"></div>
+</td>
+</tr>
+<tr>
+<td>
+<div id="error"></div>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<script id="rendered-js">
+document.addEventListener('DOMContentLoaded', function(event){
+
+  try {
+    if(event.isTrusted){
+			console.info('document event is trusted');
+			this.loadScripts = function(arr){
+				const fragment = new DocumentFragment();
+				function injectScript(src, onload, onerror) {
+	  			var script = document.createElement("script");
+	  			script.onload = onload;
+	  			script.onerror = onerror || onload;
+	  			script.src = src + '.js';
+	  			fragment.appendChild(script);
+	  		}
+	  		function success(){
+	  			console.info('success, loaded: ', this);
+	  		}
+	  		function error(){
+	  			console.error('script failed to load');
+	  		}
+				arr.forEach(function(obj){    	  
+					injectScript(obj, success, error)	  	
+				});
+				document.head.appendChild(fragment);  
+			}      
+    } else {    
+      console.warn('document event is not trusted');      
+    }    
+  } 
+  
+  catch (er){
+    console.error(er.stack);
+  } 
+  
+  finally {
+    console.log('document has loaded');
+  }
+  
+}, false);
+
+
+
+window.addEventListener('load', function(event){
+	if(event.isTrusted){
+		this.init = function(){
+
+			const js = document.getElementById('js');
+
+			function executeCode(text, onload, onerror){					
+					var script = document.createElement("script");
+					script.onload = onload;	  		
+					script.onerror = onerror || onload;					
+					script.type = "text/javascript";  
+					script.innerHTML = text;  
+					js.parentNode.insertBefore(script, js);  
+			}
+	  		
+			function success(){
+	  		pageLog('#success', 'Success');
+				console.info('success');
+			}
+	  	
+			function error(){	  	
+	  		pageLog('#error', 'Error');
+			}
+			
+	
+			const test = "pageLog('#output', new Date());";		
+			
+			function init(){
+
+				document.getElementById('output').innerHTML = '';
+				executeCode(test, success, error);
+			}
+			setInterval(init, 1000)
+		
+		}
+	
+	}
+
+	try {  
+		if(event.isTrusted){    
+			console.info('window event is trusted');
+			init();
+			
+		} else {    
+			console.warn('window event is not trusted');      
+		}  
+	} 
+	
+	catch (er){
+		console.error(er.stack);
+	}
+	
+	finally {
+		this.init();
+		console.log('window has loaded');
+	}
+
+}, false);
+</script>
+</body>
+</html>

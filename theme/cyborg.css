@@ -1,0 +1,31 @@
+:root {
+    --blue: #2A9FD6;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #CC0000;
+    --orange: #fd7e14;
+    --yellow: #FF8800;
+    --green: #77B300;
+    --teal: #20c997;
+    --cyan: #9933CC;
+    --white: #fff;
+    --gray: #555;
+    --gray-dark: #222;
+    --primary: #2A9FD6;
+    --secondary: #555;
+    --success: #77B300;
+    --info: #9933CC;
+    --warning: #FF8800;
+    --danger: #CC0000;
+    --light: #222;
+    --dark: #ADAFAE;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  
