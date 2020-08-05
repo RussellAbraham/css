@@ -25,3 +25,57 @@
 .error { 
     list-style-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEwcHgiIGhlaWdodD0iMTBweCIgdmlld0JveD0iMCAwIDEwIDEwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjYuMSAoMjYzMTMpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkdyb3VwPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Ikdyb3VwIj4KICAgICAgICAgICAgPHBhdGggZD0iTTUsOS42NCBDNy41Niw5LjY0IDkuNjQsNy41NiA5LjY0LDUgQzkuNjQsMi40NCA3LjU2LDAuMzYgNSwwLjM2IEMyLjQ0LDAuMzYgMC4zNiwyLjQ0IDAuMzYsNSBDMC4zNiw3LjU2IDIuNDQsOS42NCA1LDkuNjQgWiIgaWQ9InBhdGgzNzAxIiBmaWxsPSIjRUIzOTQxIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zLDMgTDcsNyIgaWQ9InBhdGgzNzAzIiBzdHJva2U9IiNGRkZGRkYiIGZpbGw9IiMwMDAwMDAiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTcsMyBMMyw3IiBpZD0icGF0aDM3MDUiIHN0cm9rZT0iI0ZGRkZGRiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+); 
 }
+
+.object {
+	color : violet;
+}
+.object:before {
+	content : '{ '
+}
+.object:after {
+	content : ' }';
+}
+
+.date {
+	color : teal;
+}
+
+.boolean {
+	color : coral;
+}
+
+.number {
+	color : green;
+}
+
+.string {
+	color : steelblue;
+}
+
+.undefined {
+	color : violet;
+}
+
+.error {
+	color : #D50000;
+}
+
+.syntax-error {
+	color : crimson;	
+}
+
+.reference-error {
+	color : #C62828;
+}
+
+.eval-error {
+	color : crimson;
+}
+
+.range-error {
+	color : red;
+}
+
+.type-error {
+	color : maroon;
+}
