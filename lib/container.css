@@ -1,4 +1,4 @@
-.responsive {
+.container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -7,30 +7,30 @@
   }
   
   @media (min-width: 576px) {
-    .responsive {
+    .container {
       max-width: 540px;
     }
   }
   
   @media (min-width: 768px) {
-    .responsive {
+    .container {
       max-width: 720px;
     }
   }
   
   @media (min-width: 992px) {
-    .responsive {
+    .container {
       max-width: 960px;
     }
   }
   
   @media (min-width: 1200px) {
-    .responsive {
+    .container {
       max-width: 1140px;
     }
   }
   
-  .responsive-fluid, .responsive-sm, .responsive-md, .responsive-lg, .responsive-xl {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -39,25 +39,25 @@
   }
   
   @media (min-width: 576px) {
-    .responsive, .responsive-sm {
+    .container, .container-sm {
       max-width: 540px;
     }
   }
   
   @media (min-width: 768px) {
-    .responsive, .responsive-sm, .responsive-md {
+    .container, .container-sm, .container-md {
       max-width: 720px;
     }
   }
   
   @media (min-width: 992px) {
-    .responsive, .responsive-sm, .responsive-md, .responsive-lg {
+    .container, .container-sm, .container-md, .container-lg {
       max-width: 960px;
     }
   }
   
   @media (min-width: 1200px) {
-    .responsive, .responsive-sm, .responsive-md, .responsive-lg, .responsive-xl {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
       max-width: 1140px;
     }
   }
