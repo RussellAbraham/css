@@ -1,0 +1,96 @@
+.icon-euro-currency:before {
+    content : '\20A0';
+}
+.icon-colon:before {
+    content : '\20A1';
+}
+.icon-cruzeiro:before {
+    content : '\20A2';
+}
+.icon-franc:before {
+    content : '\20A3';
+}
+.icon-lira:before {
+    content : '\20A4';
+}
+.icon-mill:before {
+    content : '\20A5';
+}
+.icon-naira:before {
+    content : '\20A6';
+}
+.icon-peseta:before {
+    content : '\20A7';
+}
+.icon-rupee:before {
+    content : '\20A8';
+}
+.icon-won:before {
+    content : '\20A9';
+}
+.icon-sheqel:before {
+    content : '\20AA';
+}
+.icon-dong:before {
+    content : '\20AB';
+}
+.icon-euro:before { 
+    content : '\20AC';
+}
+.icon-kip:before { 
+    content : '\20AD';
+}
+.icon-tugrik:before { 
+    content : '\20AE';
+}
+.icon-drachma:before { 
+    content : '\20AF';
+}
+.icon-german:before { 
+    content : '\20B0';
+}
+.icon-peso:before { 
+    content : '\20B1';
+}
+.icon-guarani:before { 
+    content : '\20B2';
+}
+.icon-austral:before { 
+    content : '\20B3';
+}
+.icon-hryvnia:before { 
+    content : '\20B4';
+}
+.icon-cedi:before { 
+    content : '\20B5';
+}
+.icon-livre-tournois:before { 
+    content : '\20B6';
+}
+.icon-spesmilo:before { 
+    content : '\20B7';
+}
+.icon-tenge:before { 
+    content : '\20B8';
+}
+.icon-rupee:before { 
+    content : '\20B9';
+}
+.icon-turkish-lira:before { 
+    content : '\20BA';
+}
+.icon-nordic-mark:before { 
+    content : '\20BB';
+}
+.icon-manat:before { 
+    content : '\20BC';
+}
+.icon-ruble:before { 
+    content : '\20BD';
+}
+.icon-lari:before { 
+    content : '\20BE';
+}
+.icon-bitcoin:before { 
+    content : '\20BF';
+}
