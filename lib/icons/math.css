@@ -262,3 +262,772 @@
 - ⋾	8958	22FE	 	SMALL CONTAINS WITH OVERBAR
 - ⋿	8959	22FF	 	Z NOTATION BAG MEMBERSHIP
 */
+
+.icon-math-for-all:before {
+	content: "\2200";
+}
+.icon-math-complement:before {
+	content: "\2201";
+}
+.icon-math-partial-differential:before {
+	content: "\2202";
+}
+.icon-math-there-exists:before {
+	content: "\2203";
+}
+.icon-math-there-does-not-exist:before {
+	content: "\2204";
+}
+.icon-math-empty-set:before {
+	content: "\2205";
+}
+.icon-math-increment:before {
+	content: "\2206";
+}
+.icon-math-nabla:before {
+	content: "\2207";
+}
+.icon-math-element-of:before {
+	content: "\2208";
+}
+.icon-math-not-an-element-of:before {
+	content: "\2209";
+}
+.icon-math-small-element-of:before {
+	content: "\220A";
+}
+.icon-math-contains-as-member:before {
+	content: "\220B";
+}
+.icon-math-does-not-contain-as-member:before {
+	content: "\220C";
+}
+.icon-math-small-contains-as-member:before {
+	content: "\220D";
+}
+.icon-math-end-of-proof:before {
+	content: "\220E";
+}
+.icon-math-n-ary-product:before {
+	content: "\220F";
+}
+.icon-math-n-ary-coproduct:before {
+	content: "\2210";
+}
+.icon-math-n-ary-summation:before {
+	content: "\2211";
+}
+.icon-math-minus-sign:before {
+	content: "\2212";
+}
+.icon-math-minus-or-plus-sign:before {
+	content: "\2213";
+}
+.icon-math-dot-plus:before {
+	content: "\2214";
+}
+.icon-math-division-slash:before {
+	content: "\2215";
+}
+.icon-math-set-minus:before {
+	content: "\2216";
+}
+.icon-math-asterisk-operator:before {
+	content: "\2217";
+}
+.icon-math-ring-operator:before {
+	content: "\2218";
+}
+.icon-math-bullet-operator:before {
+	content: "\2219";
+}
+.icon-math-square-root:before {
+	content: "\221A";
+}
+.icon-math-cube-root:before {
+	content: "\221B";
+}
+.icon-math-fourth-root:before {
+	content: "\221C";
+}
+.icon-math-proportional-to:before {
+	content: "\221D";
+}
+.icon-math-infinity:before {
+	content: "\221E";
+}
+.icon-math-right-angle:before {
+	content: "\221F";
+}
+.icon-math-angle:before {
+	content: "\2220";
+}
+.icon-math-measured-angle:before {
+	content: "\2221";
+}
+.icon-math-spherical-angle:before {
+	content: "\2222";
+}
+.icon-math-divides:before {
+	content: "\2223";
+}
+.icon-math-does-not-divide:before {
+	content: "\2224";
+}
+.icon-math-parallel-to:before {
+	content: "\2225";
+}
+.icon-math-not-parallel-to:before {
+	content: "\2226";
+}
+.icon-math-logical-and:before {
+	content: "\2227";
+}
+.icon-math-logical-or:before {
+	content: "\2228";
+}
+.icon-math-intersection:before {
+	content: "\2229";
+}
+.icon-math-union:before {
+	content: "\222A";
+}
+.icon-math-integral:before {
+	content: "\222B";
+}
+.icon-math-double-integral:before {
+	content: "\222C";
+}
+.icon-math-triple-integral:before {
+	content: "\222D";
+}
+.icon-math-contour-integral:before {
+	content: "\222E";
+}
+.icon-math-surface-integral:before {
+	content: "\222F";
+}
+.icon-math-volume-integral:before {
+	content: "\2230";
+}
+.icon-math-clockwise-integral:before {
+	content: "\2231";
+}
+.icon-math-clockwise-contour-integral:before {
+	content: "\2232";
+}
+.icon-math-anticlockwise-contour-integral:before {
+	content: "\2233";
+}
+.icon-math-therefore:before {
+	content: "\2234";
+}
+.icon-math-because:before {
+	content: "\2235";
+}
+.icon-math-ratio:before {
+	content: "\2236";
+}
+.icon-math-proportion:before {
+	content: "\2237";
+}
+.icon-math-dot-minus:before {
+	content: "\2238";
+}
+.icon-math-excess:before {
+	content: "\2239";
+}
+.icon-math-geometric-proportion:before {
+	content: "\223A";
+}
+.icon-math-homothetic:before {
+	content: "\223B";
+}
+.icon-math-tilde-operator:before {
+	content: "\223C";
+}
+.icon-math-reversed-tilde:before {
+	content: "\223D";
+}
+.icon-math-inverted-lazy-s:before {
+	content: "\223E";
+}
+.icon-math-sine-wave:before {
+	content: "\223F";
+}
+.icon-math-wreath-product:before {
+	content: "\2240";
+}
+.icon-math-not-tilde:before {
+	content: "\2241";
+}
+.icon-math-minus-tilde:before {
+	content: "\2242";
+}
+.icon-math-asymptotically-equal-to:before {
+	content: "\2243";
+}
+.icon-math-not-asymptotically-equal-to:before {
+	content: "\2244";
+}
+.icon-math-approximately-equal-to:before {
+	content: "\2245";
+}
+.icon-math-approximately-but-not-actually-equal-to:before {
+	content: "\2246";
+}
+.icon-math-neither-approximately-nor-actually-equal-to:before {
+	content: "\2247";
+}
+.icon-math-almost-equal-to:before {
+	content: "\2248";
+}
+.icon-math-not-almost-equal-to:before {
+	content: "\2249";
+}
+.icon-math-almost-equal-or-equal-to:before {
+	content: "\224A";
+}
+.icon-math-triple-tilde:before {
+	content: "\224B";
+}
+.icon-math-all-equal-to:before {
+	content: "\224C";
+}
+.icon-math-equivalent-to:before {
+	content: "\224D";
+}
+.icon-math-geometrically-equivalent-to:before {
+	content: "\224E";
+}
+.icon-math-difference-between:before {
+	content: "\224F";
+}
+.icon-math-approaches-the-limit:before {
+	content: "\2250";
+}
+.icon-math-geometrically-equal-to:before {
+	content: "\2251";
+}
+.icon-math-approximately-equal-to-or-the-image-of:before {
+	content: "\2252";
+}
+.icon-math-image-of-or-approximately-equal-to:before {
+	content: "\2253";
+}
+.icon-math-colon-equals:before {
+	content: "\2254";
+}
+.icon-math-equals-colon:before {
+	content: "\2255";
+}
+.icon-math-ring-in-equal-to:before {
+	content: "\2256";
+}
+.icon-math-ring-equal-to:before {
+	content: "\2257";
+}
+.icon-math-corresponds-to:before {
+	content: "\2258";
+}
+.icon-math-estimates:before {
+	content: "\2259";
+}
+.icon-math-equiangular-to:before {
+	content: "\225A";
+}
+.icon-math-star-equals:before {
+	content: "\225B";
+}
+.icon-math-delta-equal-to:before {
+	content: "\225C";
+}
+.icon-math-equal-to-by-definition:before {
+	content: "\225D";
+}
+.icon-math-measured-by:before {
+	content: "\225E";
+}
+.icon-math-questioned-equal-to:before {
+	content: "\225F";
+}
+.icon-math-not-equal-to:before {
+	content: "\2260";
+}
+.icon-math-identical-to:before {
+	content: "\2261";
+}
+.icon-math-not-identical-to:before {
+	content: "\2262";
+}
+.icon-math-strictly-equivalent-to:before {
+	content: "\2263";
+}
+.icon-math-less-than-or-equal-to:before {
+	content: "\2264";
+}
+.icon-math-greater-than-or-equal-to:before {
+	content: "\2265";
+}
+.icon-math-less-than-over-equal-to:before {
+	content: "\2266";
+}
+.icon-math-greater-than-over-equal-to:before {
+	content: "\2267";
+}
+.icon-math-less-than-but-not-equal-to:before {
+	content: "\2268";
+}
+.icon-math-greater-than-but-not-equal-to:before {
+	content: "\2269";
+}
+.icon-math-much-less-than:before {
+	content: "\226A";
+}
+.icon-math-much-greater-than:before {
+	content: "\226B";
+}
+.icon-math-between:before {
+	content: "\226C";
+}
+.icon-math-not-equivalent-to:before {
+	content: "\226D";
+}
+.icon-math-not-less-than:before {
+	content: "\226E";
+}
+.icon-math-not-greater-than:before {
+	content: "\226F";
+}
+.icon-math-neither-less-than-nor-equal-to:before {
+	content: "\2270";
+}
+.icon-math-neither-greater-than-nor-equal-to:before {
+	content: "\2271";
+}
+.icon-math-less-than-or-equivalent-to:before {
+	content: "\2272";
+}
+.icon-math-greater-than-or-equivalent-to:before {
+	content: "\2273";
+}
+.icon-math-neither-less-than-nor-equivalent-to:before {
+	content: "\2274";
+}
+.icon-math-neither-greater-than-nor-equivalent-to:before {
+	content: "\2275";
+}
+.icon-math-less-than-or-greater-than:before {
+	content: "\2276";
+}
+.icon-math-greater-than-or-less-than:before {
+	content: "\2277";
+}
+.icon-math-neither-less-than-nor-greater-than:before {
+	content: "\2278";
+}
+.icon-math-neither-greater-than-nor-less-than:before {
+	content: "\2279";
+}
+.icon-math-precedes:before {
+	content: "\227A";
+}
+.icon-math-succeeds:before {
+	content: "\227B";
+}
+.icon-math-precedes-or-equal-to:before {
+	content: "\227C";
+}
+.icon-math-succeeds-or-equal-to:before {
+	content: "\227D";
+}
+.icon-math-precedes-or-equivalent-to:before {
+	content: "\227E";
+}
+.icon-math-succeeds-or-equivalent-to:before {
+	content: "\227F";
+}
+.icon-math-does-not-precede:before {
+	content: "\2280";
+}
+.icon-math-does-not-succeed:before {
+	content: "\2281";
+}
+.icon-math-subset-of:before {
+	content: "\2282";
+}
+.icon-math-superset-of:before {
+	content: "\2283";
+}
+.icon-math-not-a-subset-of:before {
+	content: "\2284";
+}
+.icon-math-not-a-superset-of:before {
+	content: "\2285";
+}
+.icon-math-subset-of-or-equal-to:before {
+	content: "\2286";
+}
+.icon-math-superset-of-or-equal-to:before {
+	content: "\2287";
+}
+.icon-math-neither-a-subset-of-nor-equal-to:before {
+	content: "\2288";
+}
+.icon-math-neither-a-superset-of-nor-equal-to:before {
+	content: "\2289";
+}
+.icon-math-subset-of-with-not-equal-to:before {
+	content: "\228A";
+}
+.icon-math-superset-of-with-not-equal-to:before {
+	content: "\228B";
+}
+.icon-math-multiset:before {
+	content: "\228C";
+}
+.icon-math-multiset-multiplication:before {
+	content: "\228D";
+}
+.icon-math-multiset-union:before {
+	content: "\228E";
+}
+.icon-math-square-image-of:before {
+	content: "\228F";
+}
+.icon-math-square-original-of:before {
+	content: "\2290";
+}
+.icon-math-square-image-of-or-equal-to:before {
+	content: "\2291";
+}
+.icon-math-square-original-of-or-equal-to:before {
+	content: "\2292";
+}
+.icon-math-square-cap:before {
+	content: "\2293";
+}
+.icon-math-square-cup:before {
+	content: "\2294";
+}
+.icon-math-circled-plus:before {
+	content: "\2295";
+}
+.icon-math-circled-minus:before {
+	content: "\2296";
+}
+.icon-math-circled-times:before {
+	content: "\2297";
+}
+.icon-math-circled-division-slash:before {
+	content: "\2298";
+}
+.icon-math-circled-dot-operator:before {
+	content: "\2299";
+}
+.icon-math-circled-ring-operator:before {
+	content: "\229A";
+}
+.icon-math-circled-asterisk-operator:before {
+	content: "\229B";
+}
+.icon-math-circled-equals:before {
+	content: "\229C";
+}
+.icon-math-circled-dash:before {
+	content: "\229D";
+}
+.icon-math-squared-plus:before {
+	content: "\229E";
+}
+.icon-math-squared-minus:before {
+	content: "\229F";
+}
+.icon-math-squared-times:before {
+	content: "\22A0";
+}
+.icon-math-squared-dot-operator:before {
+	content: "\22A1";
+}
+.icon-math-right-tack:before {
+	content: "\22A2";
+}
+.icon-math-left-tack:before {
+	content: "\22A3";
+}
+.icon-math-down-tack:before {
+	content: "\22A4";
+}
+.icon-math-up-tack:before {
+	content: "\22A5";
+}
+.icon-math-assertion:before {
+	content: "\22A6";
+}
+.icon-math-models:before {
+	content: "\22A7";
+}
+.icon-math-true:before {
+	content: "\22A8";
+}
+.icon-math-forces:before {
+	content: "\22A9";
+}
+.icon-math-triple-vertical-bar-right-turnstile:before {
+	content: "\22AA";
+}
+.icon-math-double-vertical-bar-double-right-turnstile:before {
+	content: "\22AB";
+}
+.icon-math-does-not-prove:before {
+	content: "\22AC";
+}
+.icon-math-not-true:before {
+	content: "\22AD";
+}
+.icon-math-does-not-force:before {
+	content: "\22AE";
+}
+.icon-math-negated-double-vertical-bar-double-right-turnstile:before {
+	content: "\22AF";
+}
+.icon-math-precedes-under-relation:before {
+	content: "\22B0";
+}
+.icon-math-succeeds-under-relation:before {
+	content: "\22B1";
+}
+.icon-math-normal-subgroup-of:before {
+	content: "\22B2";
+}
+.icon-math-contains-as-normal-subgroup:before {
+	content: "\22B3";
+}
+.icon-math-normal-subgroup-of-or-equal-to:before {
+	content: "\22B4";
+}
+.icon-math-contains-as-normal-subgroup-or-equal-to:before {
+	content: "\22B5";
+}
+.icon-math-original-of:before {
+	content: "\22B6";
+}
+.icon-math-image-of:before {
+	content: "\22B7";
+}
+.icon-math-multimap:before {
+	content: "\22B8";
+}
+.icon-math-hermitian-conjugate-matrix:before {
+	content: "\22B9";
+}
+.icon-math-intercalate:before {
+	content: "\22BA";
+}
+.icon-math-xor:before {
+	content: "\22BB";
+}
+.icon-math-nand:before {
+	content: "\22BC";
+}
+.icon-math-nor:before {
+	content: "\22BD";
+}
+.icon-math-right-angle-with-arc:before {
+	content: "\22BE";
+}
+.icon-math-right-triangle:before {
+	content: "\22BF";
+}
+.icon-math-n-ary-logical-and:before {
+	content: "\22C0";
+}
+.icon-math-n-ary-logical-or:before {
+	content: "\22C1";
+}
+.icon-math-n-ary-intersection:before {
+	content: "\22C2";
+}
+.icon-math-n-ary-union:before {
+	content: "\22C3";
+}
+.icon-math-diamond-operator:before {
+	content: "\22C4";
+}
+.icon-math-dot-operator:before {
+	content: "\22C5";
+}
+.icon-math-star-operator:before {
+	content: "\22C6";
+}
+.icon-math-division-times:before {
+	content: "\22C7";
+}
+.icon-math-bowtie:before {
+	content: "\22C8";
+}
+.icon-math-left-normal-factor-semidirect-product:before {
+	content: "\22C9";
+}
+.icon-math-right-normal-factor-semidirect-product:before {
+	content: "\22CA";
+}
+.icon-math-left-semidirect-product:before {
+	content: "\22CB";
+}
+.icon-math-right-semidirect-product:before {
+	content: "\22CC";
+}
+.icon-math-reversed-tilde-equals:before {
+	content: "\22CD";
+}
+.icon-math-curly-logical-or:before {
+	content: "\22CE";
+}
+.icon-math-curly-logical-and:before {
+	content: "\22CF";
+}
+.icon-math-double-subset:before {
+	content: "\22D0";
+}
+.icon-math-double-superset:before {
+	content: "\22D1";
+}
+.icon-math-double-intersection:before {
+	content: "\22D2";
+}
+.icon-math-double-union:before {
+	content: "\22D3";
+}
+.icon-math-pitchfork:before {
+	content: "\22D4";
+}
+.icon-math-equal-and-parallel-to:before {
+	content: "\22D5";
+}
+.icon-math-less-than-with-dot:before {
+	content: "\22D6";
+}
+.icon-math-greater-than-with-dot:before {
+	content: "\22D7";
+}
+.icon-math-very-much-less-than:before {
+	content: "\22D8";
+}
+.icon-math-very-much-greater-than:before {
+	content: "\22D9";
+}
+.icon-math-less-than-equal-to-or-greater-than:before {
+	content: "\22DA";
+}
+.icon-math-greater-than-equal-to-or-less-than:before {
+	content: "\22DB";
+}
+.icon-math-equal-to-or-less-than:before {
+	content: "\22DC";
+}
+.icon-math-equal-to-or-greater-than:before {
+	content: "\22DD";
+}
+.icon-math-equal-to-or-precedes:before {
+	content: "\22DE";
+}
+.icon-math-equal-to-or-succeeds:before {
+	content: "\22DF";
+}
+.icon-math-does-not-precede-or-equal:before {
+	content: "\22E0";
+}
+.icon-math-does-not-succeed-or-equal:before {
+	content: "\22E1";
+}
+.icon-math-not-square-image-of-or-equal-to:before {
+	content: "\22E2";
+}
+.icon-math-not-square-original-of-or-equal-to:before {
+	content: "\22E3";
+}
+.icon-math-square-image-of-or-not-equal-to:before {
+	content: "\22E4";
+}
+.icon-math-square-original-of-or-not-equal-to:before {
+	content: "\22E5";
+}
+.icon-math-less-than-but-not-equivalent-to:before {
+	content: "\22E6";
+}
+.icon-math-greater-than-but-not-equivalent-to:before {
+	content: "\22E7";
+}
+.icon-math-precedes-but-not-equivalent-to:before {
+	content: "\22E8";
+}
+.icon-math-succeeds-but-not-equivalent-to:before {
+	content: "\22E9";
+}
+.icon-math-not-normal-subgroup-of:before {
+	content: "\22EA";
+}
+.icon-math-does-not-contain-as-normal-subgroup:before {
+	content: "\22EB";
+}
+.icon-math-not-normal-subgroup-of-or-equal-to:before {
+	content: "\22EC";
+}
+.icon-math-does-not-contain-as-normal-subgroup-or-equal:before {
+	content: "\22ED";
+}
+.icon-math-vertical-ellipsis:before {
+	content: "\22EE";
+}
+.icon-math-midline-horizontal-ellipsis:before {
+	content: "\22EF";
+}
+.icon-math-up-right-diagonal-ellipsis:before {
+	content: "\22F0";
+}
+.icon-math-down-right-diagonal-ellipsis:before {
+	content: "\22F1";
+}
+.icon-math-element-of-with-long-horizontal-stroke:before {
+	content: "\22F2";
+}
+.icon-math-element-of-with-vertical-bar-at-end-of-horizontal-stroke:before {
+	content: "\22F3";
+}
+.icon-math-small-element-of-with-vertical-bar-at-end-of-horizontal-stroke:before {
+	content: "\22F4";
+}
+.icon-math-element-of-with-dot-above:before {
+	content: "\22F5";
+}
+.icon-math-element-of-with-overbar:before {
+	content: "\22F6";
+}
+.icon-math-small-element-of-with-overbar:before {
+	content: "\22F7";
+}
+.icon-math-element-of-with-underbar:before {
+	content: "\22F8";
+}
+.icon-math-element-of-with-two-horizontal-strokes:before {
+	content: "\22F9";
+}
+.icon-math-contains-with-long-horizontal-stroke:before {
+	content: "\22FA";
+}
+.icon-math-contains-with-vertical-bar-at-end-of-horizontal-stroke:before {
+	content: "\22FB";
+}
+.icon-math-small-contains-with-vertical-bar-at-end-of-horizontal-stroke:before {
+	content: "\22FC";
+}
+.icon-math-contains-with-overbar:before {
+	content: "\22FD";
+}
+.icon-math-small-contains-with-overbar:before {
+	content: "\22FE";
+}
+.icon-math-z-notation-bag-membershi:before {
+	content: "\22FF";
+}
