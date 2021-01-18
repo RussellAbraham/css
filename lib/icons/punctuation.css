@@ -113,3 +113,447 @@ Char	Dec	Hex	Entity	Name
 ⁮	8302	206E	 	NATIONAL DIGIT SHAPES
 ⁯	8303	206F	 	NOMINAL DIGIT SHAPES
 */
+
+.icon-punctuation-en-quad:before {
+    content: '\2000';
+}
+
+.icon-punctuation-em-quad:before {
+    content: '\2001';
+}
+
+.icon-punctuation-en-space:before {
+    content: '\2002';
+}
+
+.icon-punctuation-em-space:before {
+    content: '\2003';
+}
+
+.icon-punctuation-three-per-em-space:before {
+    content: '\2004';
+}
+
+.icon-punctuation-four-per-em-space:before {
+    content: '\2005';
+}
+
+.icon-punctuation-six-per-em-space:before {
+    content: '\2006';
+}
+
+.icon-punctuation-figure-space:before {
+    content: '\2007';
+}
+
+.icon-punctuation-punctuation-space:before {
+    content: '\2008';
+}
+
+.icon-punctuation-thin-space:before {
+    content: '\2009';
+}
+
+.icon-punctuation-hair-space:before {
+    content: '\200A';
+}
+
+.icon-punctuation-zero-width-space:before {
+    content: '\200B';
+}
+
+.icon-punctuation-zero-width-non-joiner:before {
+    content: '\200C';
+}
+
+.icon-punctuation-zero-width-joiner:before {
+    content: '\200D';
+}
+
+.icon-punctuation-left-to-right-mark:before {
+    content: '\200E';
+}
+
+.icon-punctuation-right-to-left-mark:before {
+    content: '\200F';
+}
+
+.icon-punctuation-hyphen:before {
+    content: '\2010';
+}
+
+.icon-punctuation-non-breaking-hyphen:before {
+    content: '\2011';
+}
+
+.icon-punctuation-figure-dash:before {
+    content: '\2012';
+}
+
+.icon-punctuation-en-dash:before {
+    content: '\2013';
+}
+
+.icon-punctuation-em-dash:before {
+    content: '\2014';
+}
+
+.icon-punctuation-horizontal-bar:before {
+    content: '\2015';
+}
+
+.icon-punctuation-double-vertical-line:before {
+    content: '\2016';
+}
+
+.icon-punctuation-double-low-line:before {
+    content: '\2017';
+}
+
+.icon-punctuation-left-single-quotation-mark:before {
+    content: '\2018';
+}
+
+.icon-punctuation-right-single-quotation-mark:before {
+    content: '\2019';
+}
+
+.icon-punctuation-single-low-9-quotation-mark:before {
+    content: '\201A';
+}
+
+.icon-punctuation-single-high-reversed-9-quotation-mark:before {
+    content: '\201B';
+}
+
+.icon-punctuation-left-double-quotation-mark:before {
+    content: '\201C';
+}
+
+.icon-punctuation-right-double-quotation-mark:before {
+    content: '\201D';
+}
+
+.icon-punctuation-double-low-9-quotation-mark:before {
+    content: '\201E';
+}
+
+.icon-punctuation-double-high-reversed-9-quotation-mark:before {
+    content: '\201F';
+}
+
+.icon-punctuation-dagger:before {
+    content: '\2020';
+}
+
+.icon-punctuation-double-dagger:before {
+    content: '\2021';
+}
+
+.icon-punctuation-bullet:before {
+    content: '\2022';
+}
+
+.icon-punctuation-triangular-bullet:before {
+    content: '\2023';
+}
+
+.icon-punctuation-one-dot-leader:before {
+    content: '\2024';
+}
+
+.icon-punctuation-two-dot-leader:before {
+    content: '\2025';
+}
+
+.icon-punctuation-horizontal-ellipsis:before {
+    content: '\2026';
+}
+
+.icon-punctuation-hyphenation-point:before {
+    content: '\2027';
+}
+
+.icon-punctuation-line-separator:before {
+    content: '\2028';
+}
+
+.icon-punctuation-paragraph-separator:before {
+    content: '\2029';
+}
+
+.icon-punctuation-left-to-right-embedding:before {
+    content: '\202A';
+}
+
+.icon-punctuation-right-to-left-embedding:before {
+    content: '\202B';
+}
+
+.icon-punctuation-pop-directional-formatting:before {
+    content: '\202C';
+}
+
+.icon-punctuation-left-to-right-override:before {
+    content: '\202D';
+}
+
+.icon-punctuation-right-to-left-override:before {
+    content: '\202E';
+}
+
+.icon-punctuation-narrow-non-break-space:before {
+    content: '\202F';
+}
+
+.icon-punctuation-per-mille-sign:before {
+    content: '\2030';
+}
+
+.icon-punctuation-per-ten-thousand-sign:before {
+    content: '\2031';
+}
+
+.icon-punctuation-prime:before {
+    content: '\2032';
+}
+
+.icon-punctuation-double-prime:before {
+    content: '\2033';
+}
+
+.icon-punctuation-triple-prime:before {
+    content: '\2034';
+}
+
+.icon-punctuation-reversed-prime:before {
+    content: '\2035';
+}
+
+.icon-punctuation-reversed-double-prime:before {
+    content: '\2036';
+}
+
+.icon-punctuation-reversed-triple-prime:before {
+    content: '\2037';
+}
+
+.icon-punctuation-caret:before {
+    content: '\2038';
+}
+
+.icon-punctuation-single-left-pointing-angle-quotation-mark:before {
+    content: '\2039';
+}
+
+.icon-punctuation-single-right-pointing-angle-quotation-mark:before {
+    content: '\203A';
+}
+
+.icon-punctuation-reference-mark:before {
+    content: '\203B';
+}
+
+.icon-punctuation-double-exclamation-mark:before {
+    content: '\203C';
+}
+
+.icon-punctuation-interrobang:before {
+    content: '\203D';
+}
+
+.icon-punctuation-overline:before {
+    content: '\203E';
+}
+
+.icon-punctuation-undertie:before {
+    content: '\203F';
+}
+
+.icon-punctuation-character-tie:before {
+    content: '\2040';
+}
+
+.icon-punctuation-caret-insertion-point:before {
+    content: '\2041';
+}
+
+.icon-punctuation-asterism:before {
+    content: '\2042';
+}
+
+.icon-punctuation-hyphen-bullet:before {
+    content: '\2043';
+}
+
+.icon-punctuation-fraction-slash:before {
+    content: '\2044';
+}
+
+.icon-punctuation-left-square-bracket-with-quill:before {
+    content: '\2045';
+}
+
+.icon-punctuation-right-square-bracket-with-quill:before {
+    content: '\2046';
+}
+
+.icon-punctuation-double-question-mark:before {
+    content: '\2047';
+}
+
+.icon-punctuation-question-exclamation-mark:before {
+    content: '\2048';
+}
+
+.icon-punctuation-exclamation-question-mark:before {
+    content: '\2049';
+}
+
+.icon-punctuation-tironian-sign-et:before {
+    content: '\204A';
+}
+
+.icon-punctuation-reversed-pilcrow-sign:before {
+    content: '\204B';
+}
+
+.icon-punctuation-black-leftwards-bullet:before {
+    content: '\204C';
+}
+
+.icon-punctuation-black-rightwards-bullet:before {
+    content: '\204D';
+}
+
+.icon-punctuation-low-asterisk:before {
+    content: '\204E';
+}
+
+.icon-punctuation-reversed-semicolon:before {
+    content: '\204F';
+}
+
+.icon-punctuation-close-up:before {
+    content: '\2050';
+}
+
+.icon-punctuation-two-asterisks-aligned-vertically:before {
+    content: '\2051';
+}
+
+.icon-punctuation-commercial-minus-sign:before {
+    content: '\2052';
+}
+
+.icon-punctuation-swung-dash:before {
+    content: '\2053';
+}
+
+.icon-punctuation-inverted-undertie:before {
+    content: '\2054';
+}
+
+.icon-punctuation-flower-punctuation-mark:before {
+    content: '\2055';
+}
+
+.icon-punctuation-three-dot-punctuation:before {
+    content: '\2056';
+}
+
+.icon-punctuation-quadruple-prime:before {
+    content: '\2057';
+}
+
+.icon-punctuation-four-dot-punctuation:before {
+    content: '\2058';
+}
+
+.icon-punctuation-five-dot-punctuation:before {
+    content: '\2059';
+}
+
+.icon-punctuation-two-dot-punctuation:before {
+    content: '\205A';
+}
+
+.icon-punctuation-four-dot-mark:before {
+    content: '\205B';
+}
+
+.icon-punctuation-dotted-cross:before {
+    content: '\205C';
+}
+
+.icon-punctuation-tricolon:before {
+    content: '\205D';
+}
+
+.icon-punctuation-vertical-four-dots:before {
+    content: '\205E';
+}
+
+.icon-punctuation-medium-mathematical-space:before {
+    content: '\205F';
+}
+
+.icon-punctuation-word-joiner:before {
+    content: '\2060';
+}
+
+.icon-punctuation-function-application:before {
+    content: '\2061';
+}
+
+.icon-punctuation-invisible-times:before {
+    content: '\2062';
+}
+
+.icon-punctuation-invisible-separator:before {
+    content: '\2063';
+}
+
+.icon-punctuation-invisible-plus:before {
+    content: '\2064';
+}
+
+.icon-punctuation-left-to-right-isolate:before {
+    content: '\2066';
+}
+
+.icon-punctuation-right-to-left-isolate:before {
+    content: '\2067';
+}
+
+.icon-punctuation-first-strong-isolate:before {
+    content: '\2068';
+}
+
+.icon-punctuation-pop-directional-isolate:before {
+    content: '\2069';
+}
+
+.icon-punctuation-inhibit-symmetric-swapping:before {
+    content: '\206A';
+}
+
+.icon-punctuation-activate-symmetric-swapping:before {
+    content: '\206B';
+}
+
+.icon-punctuation-inhibit-arabic-form-shaping:before {
+    content: '\206C';
+}
+
+.icon-punctuation-activate-arabic-form-shaping:before {
+    content: '\206D';
+}
+
+.icon-punctuation-national-digit-shapes:before {
+    content: '\206E';
+}
+
+.icon-punctuation-nominal-digit-shape:before {
+    content: '\206F';
+}
