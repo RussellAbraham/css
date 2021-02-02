@@ -1,0 +1,83 @@
+:root {
+	/* Image Variables */ 
+	--background-color: #353535;
+
+    --image-opacity: 1;
+
+    --border-color: #5092c7;
+	--border-width: 0px;
+	--border-radius: 0px;
+	--inner-border-radius: 0%;
+    --border-styles: solid;
+    
+    --rotate: 0deg;
+    
+    --blur: 0px;
+	--greyscale: 0%;
+	--brightness: 100%;
+	--contrast: 100%;
+	--hue-rotate: 0deg;
+	--invert: 0%;
+	--opacity: 100%;
+	--saturate: 100%;
+	--sepia: 0%;
+    
+    --scaleX: 1;
+	--scaleY: 1;
+	--scaleXY: 1;
+    
+    --translateX: 0px;
+	--translateY: 0px;
+    
+    --skewX: 0deg;
+	--skewY: 0deg;
+    
+    --mix-blend-mode: none;
+    
+    --background-blend-mode: none;
+    
+	--radial-gradient-overlay-1: "rgba(0,0,0,0)" ;
+	--radial-gradient-overlay-2: "rgba(0,0,0,0)" ; 
+	--radial-gradient-size: 20%;
+    
+    --linear-gradient-overlay-1: "rgba(0,0,0,0)" ;
+	--linear-gradient-overlay-2: "rgba(0,0,0,0)" ;
+	--linear-gradient-flow: 0%;
+	--linear-gradient-direction: 0deg;
+	--linear-gradient-overlay-opacity: 0.5;    
+    
+    --radial-gradient-overlay-opacity: 0.5; 
+	--radial-gradient-position-x: 50%;
+	--radial-gradient-position-y: 50%;
+
+	/* Shape Variables */ 
+	--clip-path: none;
+
+	/* Text Variables */ 
+	--text-size: 30px;
+	--letter-spacing: 0px;
+	--word-spacing: 0.25em;
+	
+	--text-color: #ffffff;
+	--text-rotate: 0deg;
+	--text-skew: 0deg;
+	--text-translate-x: 0px;
+	--text-translate-y: 0px;
+	
+	--font: "Montserrat";
+	
+	--webkit-text-stroke-width: 10px;
+
+	--text-shadow: 1px;
+	--text-shadow-color: '#343434';
+	
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
