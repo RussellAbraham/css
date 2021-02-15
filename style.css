@@ -65,3 +65,22 @@
 .type-error {
 	color : #D50000;
 }
+
+
+@media screen {
+	.pln{ color:#fdf6e3 }
+	.str{ color:#cb4b16 } /* strings */
+	.kwd{ color:#859900 } /* keywords */
+	.com{ color:#839496 } /* comments */
+	.typ{ color:#fdf6e3 }
+	.lit{ color:#fdf6e3 }
+	.pun{ color:#93a1a1 }
+	.opn{ color:#93a1a1 }
+	.clo{ color:#93a1a1 }
+	.tag{ color:#fdf6e3 }
+	.atn{ color:#b58900 } /* attr name */
+	.atv{ color:#cb4b16 } /* attr value */
+	.dec{ color:#859900 }
+	.var{ color:#859900 }
+	.fun{ color:#fdf6e3 }
+}
